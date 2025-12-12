@@ -1,0 +1,107 @@
+.top-container{
+    background-color:#D6F4ED;
+    position: relative;
+    padding-top : 100px;
+}
+body{
+    margin: 0;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-family: "Story Script",sans-serif;
+    font-size :5.625rem;
+    font-style: normal;
+    color: #87BAC3;
+}
+h2{
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-size :3.625rem;
+    font-style: normal;
+    color: #87BAC3;
+}
+h3{
+    color: #11999e;
+
+}
+.parent-typing{
+    text-align: left;
+    font-family: "Montserrat", sans-serif;
+    font-size :1rem;
+    font-style: normal;
+    color: #11999e;
+}
+.clound-top{
+    position: absolute;
+    top : 40px ;
+    right:400px;
+}
+.clound-bottom {
+    position: absolute;
+    left: 150px;
+    bottom: 300px;
+}
+.bottom-container{
+    background-color: #00B7B5;
+    padding: 30px;
+    padding-bottom: 5px;
+}
+a {
+    color: #11999e;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+} 
+.copyright{
+    color: #DCDCDC;
+}
+.intro{
+    width: 40%;
+    margin: auto;
+}
+.profile-pic{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+.typing-gif{
+    width: 250px;
+    height: 250px;
+}
+.electric-gif{
+    width: 250px;
+    height: 250px;
+}
+.contact-messenger{
+    width: 30%;
+    margin: auto;
+    margin-bottom:30px;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
